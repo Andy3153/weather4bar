@@ -212,7 +212,7 @@ weatherIcon = {
 # {{{ Functions
 # {{{ Fetch IP details
 def IP():
-    link     = 'https://ip-api.com/json/?fields=lat,lon,city'
+    link     = 'http://ip-api.com/json/?fields=lat,lon,city'
     response = requests.get(link).json()
 
     locationData = {
