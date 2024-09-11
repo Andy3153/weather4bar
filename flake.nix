@@ -17,6 +17,11 @@
         [
           (python3.withPackages(python-pkgs: with python-pkgs;
           [
+            # for creating package
+            build
+            twine
+
+            # build deps
             requests
           ]))
         ];
