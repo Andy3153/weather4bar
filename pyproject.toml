@@ -1,7 +1,7 @@
 # vim: set fenc=utf-8 ts=4 sw=0 sts=0 sr et si tw=0 fdm=marker fmr={{{,}}}:
 [project]
 name        = "weather4bar"
-version     = "1.0.0"
+version     = "1.0.1"
 description = "A Python script that shows weather info for the current location."
 authors     = [ { name="Andrei Dobrete", email="andy3153@protonmail.com" }, ]
 
